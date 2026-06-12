@@ -2,6 +2,10 @@
 // use with temperature_control_system_2-001_Mega-2560
 // en Hanna P 2026
 
+// Replace with your network credentials (STATION)
+const char* ssid = "REPLACE_WITH_YOUR_SSID";
+const char* password = "REPLACE_WITH_YOUR_PASSWORD";
+
 // Load Wi-Fi library
 #include <WiFi.h>
 
