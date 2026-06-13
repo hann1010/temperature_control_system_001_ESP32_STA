@@ -9,6 +9,10 @@ const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 // Load Wi-Fi library
 #include <WiFi.h>
 
+void initWiFi() {
+  
+}
+
 void setup() {
   // put your setup code here, to run once:
 
