@@ -10,6 +10,8 @@ const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 #include <WiFi.h>
 
 void initWiFi() {
+  WiFi.mode(WIFI_STA);
+  WiFi.begin(ssid, password);
   
 }
 
