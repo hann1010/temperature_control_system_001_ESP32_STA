@@ -6,6 +6,14 @@
 const char* ssid = "REPLACE_WITH_YOUR_SSID";
 const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 
+// Set web server port number
+WiFiServer server(80);
+
+// Variable to store the HTTP request
+String header;
+
+// Assign input variables to GPIO pins
+
 // Load Wi-Fi library
 #include <WiFi.h>
 
