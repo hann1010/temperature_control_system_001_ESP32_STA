@@ -23,6 +23,8 @@ void initWiFi() {
 void setup() {
   Serial.begin(115200);
   initWiFi();
+  Serial.print("RRSI: ");
+  Serial.println(WiFi.RSSI());
 }
 
 void loop() {
