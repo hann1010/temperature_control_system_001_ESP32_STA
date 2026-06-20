@@ -14,6 +14,14 @@ String header;
 
 // Assign input variables to GPIO pins
 
+// Variable to temperatures etc.
+String heating_burner;
+String heating_tanktop;
+String heating_inline;
+String heating_hotwater;
+String outdoor;
+String uptime_m;
+
 // Load Wi-Fi library
 #include <WiFi.h>
 
