@@ -25,6 +25,10 @@ String uptime_m;
 // Load Wi-Fi library
 #include <WiFi.h>
 
+// Define TX and RX pins for UART (change if needed)
+#define TXD1 19
+#define RXD1 21
+
 void initWiFi() {
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid, password);
