@@ -29,6 +29,9 @@ String uptime_m;
 #define TXD1 19
 #define RXD1 21
 
+// Use Serial1 for UART communication
+HardwareSerial mySerial(2);
+
 void initWiFi() {
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid, password);
