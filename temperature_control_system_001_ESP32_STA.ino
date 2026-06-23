@@ -45,6 +45,7 @@ void initWiFi() {
 
 void setup() {
   Serial.begin(115200);
+  Serial.println("Setup start.. ");
   initWiFi();
   Serial.print("RRSI: ");
   Serial.println(WiFi.RSSI());
