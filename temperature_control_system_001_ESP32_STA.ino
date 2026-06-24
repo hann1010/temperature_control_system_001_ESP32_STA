@@ -46,6 +46,7 @@ void initWiFi() {
 void setup() {
   Serial.begin(115200);
   Serial.println("Setup start.. ");
+  mySerial.begin(9600, SERIAL_8N1, RXD1, TXD1);  // UART setup
   initWiFi();
   Serial.print("RRSI: ");
   Serial.println(WiFi.RSSI());
