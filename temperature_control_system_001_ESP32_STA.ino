@@ -6,6 +6,9 @@
 const char* ssid = "REPLACE_WITH_YOUR_SSID";
 const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 
+unsigned long previousMillis = 0;
+unsigned long interval = 30000;
+
 // Set web server port number
 WiFiServer server(80);
 
