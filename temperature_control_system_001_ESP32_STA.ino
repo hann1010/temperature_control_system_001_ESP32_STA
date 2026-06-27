@@ -57,5 +57,6 @@ void setup() {
 
 void loop() {
   unsigned long currentMillis = millis();
+  // if WiFi is down, try reconnecting every CHECK_WIFI_TIME seconds
 
 }
