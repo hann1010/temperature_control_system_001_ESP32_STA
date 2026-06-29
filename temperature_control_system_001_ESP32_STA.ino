@@ -59,6 +59,6 @@ void loop() {
   unsigned long currentMillis = millis();
   // if WiFi is down, try reconnecting every CHECK_WIFI_TIME seconds
   if ((WiFi.status() != WL_CONNECTED) && (currentMillis - previousMillis >=interval)) {
-    
+    Serial.print(millis());
 
 }
