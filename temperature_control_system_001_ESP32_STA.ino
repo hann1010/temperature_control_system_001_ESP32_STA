@@ -62,4 +62,5 @@ void loop() {
     Serial.print(millis());
     Serial.println("Reconnecting to WiFi...");
     WiFi.disconnect();
+    WiFi.reconnect();
 }
