@@ -53,6 +53,8 @@ void setup() {
   initWiFi();
   Serial.print("RRSI: ");
   Serial.println(WiFi.RSSI());
+  
+  server.begin();
 }
 
 void loop() {
