@@ -55,6 +55,8 @@ void setup() {
   Serial.println(WiFi.RSSI());
   
   server.begin();
+  
+  Serial.println("Setup done");
 }
 
 void loop() {
