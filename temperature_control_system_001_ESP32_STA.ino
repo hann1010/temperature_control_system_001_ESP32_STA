@@ -68,4 +68,6 @@ void loop() {
     WiFi.disconnect();
     WiFi.reconnect();
   }
+  
+  //testReadData(); // for Uart testing
 }
