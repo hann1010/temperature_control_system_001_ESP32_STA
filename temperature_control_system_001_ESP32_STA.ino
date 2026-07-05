@@ -71,3 +71,8 @@ void loop() {
   
   //testReadData(); // for Uart testing
 }
+
+void testReadData() {
+  // Check if data is available to read
+  
+}
