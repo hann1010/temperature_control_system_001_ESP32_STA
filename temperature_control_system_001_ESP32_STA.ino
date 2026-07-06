@@ -74,5 +74,7 @@ void loop() {
 
 void testReadData() {
   // Check if data is available to read
-  
+  if (mySerial.available()) {
+  // Read data and display it for debug
+  }
 }
