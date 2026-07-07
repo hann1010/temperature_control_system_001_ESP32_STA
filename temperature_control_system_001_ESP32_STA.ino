@@ -75,6 +75,8 @@ void loop() {
 void testReadData() {
   // Check if data is available to read
   if (mySerial.available()) {
-  // Read data and display it for debug
+    // Read data and display it for debug
+    String txt, val;
+    String message = mySerial.readStringUntil('\n');
   }
 }
