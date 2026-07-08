@@ -78,5 +78,7 @@ void testReadData() {
     // Read data and display it for debug
     String txt, val;
     String message = mySerial.readStringUntil('\n');
+    for (int i = 0; i < message.length(); i++) {
+      if (message.substring(i, i+1) == "#") {
   }
 }
