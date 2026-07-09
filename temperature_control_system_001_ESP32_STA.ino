@@ -80,5 +80,7 @@ void testReadData() {
     String message = mySerial.readStringUntil('\n');
     for (int i = 0; i < message.length(); i++) {
       if (message.substring(i, i+1) == "#") {
+        txt = message.substring(0, i);
+        val = message.substring(i+1);
   }
 }
