@@ -82,5 +82,8 @@ void testReadData() {
       if (message.substring(i, i+1) == "#") {
         txt = message.substring(0, i);
         val = message.substring(i+1);
+            break;
+      }
+    }
   }
 }
