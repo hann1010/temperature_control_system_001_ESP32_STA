@@ -87,5 +87,6 @@ void testReadData() {
     }
     Serial.println("Received: " + message);
     Serial.println("txt: " + txt);
+    Serial.println("val: " + val);
   }
 }
