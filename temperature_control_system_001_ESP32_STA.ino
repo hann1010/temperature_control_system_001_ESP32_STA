@@ -98,4 +98,6 @@ void readData() {
   // Check if data is available to read
   if (mySerial.available()) {
     // Read data for HTML web page
+    String dItem, dValue;
+    String tData = mySerial.readStringUntil('\n');
 }
