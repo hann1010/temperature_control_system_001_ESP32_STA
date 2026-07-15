@@ -100,8 +100,10 @@ void readData() {
     // Read data for HTML web page
     String dItem, dValue;
     String tData = mySerial.readStringUntil('\n');
-        Serial.println("Received: " + tData);
+    Serial.println("Received: " + tData);
     for (int i = 0; i < tData.length(); i++) {
-      
-    ]
+      if (tData.substring(i, i+1) == "#") {
+        dItem = tData.substring(0, i);
+      }
+    }
 }
