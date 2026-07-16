@@ -108,4 +108,8 @@ void readData() {
         break;
       }
     }
+    if (dItem == "Burner") {
+      heating_burner = dValue;
+    }
+  }
 }
