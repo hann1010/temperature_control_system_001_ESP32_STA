@@ -104,6 +104,8 @@ void readData() {
     for (int i = 0; i < tData.length(); i++) {
       if (tData.substring(i, i+1) == "#") {
         dItem = tData.substring(0, i);
+        dValue = tData.substring(i+1);
+        break;
       }
     }
 }
