@@ -112,6 +112,8 @@ void readData() {
       heating_burner = dValue;
     } else if (dItem == "Tanktop") {
       heating_tanktop = dValue;
+    } else if (dItem == "Inline") {
+      heating_inline = dValue;
     }
   }
 }
