@@ -114,6 +114,8 @@ void readData() {
       heating_tanktop = dValue;
     } else if (dItem == "Inline") {
       heating_inline = dValue;
+    } else if (dItem == "Hotwater") {
+      heating_hotwater = dValue;
     }
   }
 }
