@@ -116,6 +116,8 @@ void readData() {
       heating_inline = dValue;
     } else if (dItem == "Hotwater") {
       heating_hotwater = dValue;
+    } else if (dItem == "Outdoor") {
+      outdoor = dValue;
     }
   }
 }
