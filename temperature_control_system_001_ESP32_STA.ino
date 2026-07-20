@@ -118,6 +118,8 @@ void readData() {
       heating_hotwater = dValue;
     } else if (dItem == "Outdoor") {
       outdoor = dValue;
-    }
+    } else if (dItem == "UpTime_m") {
+      uptime_m = dValue;
+    ]
   }
 }
