@@ -70,6 +70,7 @@ void loop() {
   }
   
   //testReadData(); // for Uart testing
+  readData(); // for Uart read all temperatures
 }
 
 void testReadData() {
