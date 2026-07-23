@@ -78,7 +78,11 @@ void loop() {
   if (client) {
     Serial.println("New Client.");
     String currentLine = "";
-  ]
+    // loop while the client's connected
+    while (client.connected()) {
+      
+    }
+  }
 }
 
 void testReadData() {
