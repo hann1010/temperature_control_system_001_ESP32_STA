@@ -80,8 +80,11 @@ void loop() {
     String currentLine = "";
     // loop while the client's connected
     while (client.connected()) {
-      // read a byte, then
-      char c = client.read();
+      // if there's bytes to read from the client,
+      if (client.available()) {
+        // read a byte, then
+        char c = client.read();
+      }
     }
   }
 }
