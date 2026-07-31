@@ -97,6 +97,10 @@ void loop() {
             client.println("Content-type:text/html");
             client.println("Connection: close");
             client.println();
+            
+            // palce for functional code
+
+            // Display the HTML web page
           }
         }
       }
