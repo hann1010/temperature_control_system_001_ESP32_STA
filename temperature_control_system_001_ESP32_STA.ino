@@ -101,6 +101,9 @@ void loop() {
             // palce for functional code
 
             // Display the HTML web page
+            client.println("<!DOCTYPE html><html>");
+            client.println("<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
+            
           }
         }
       }
