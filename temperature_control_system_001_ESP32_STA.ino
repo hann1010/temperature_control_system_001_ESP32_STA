@@ -111,6 +111,7 @@ void loop() {
             client.println("</style></head>");
             
             // Web Page Heading
+            client.println("<body><h1>Access Point for temperature control 001</h1>");
           }
         }
       }
