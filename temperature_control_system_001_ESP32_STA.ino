@@ -112,6 +112,9 @@ void loop() {
             
             // Web Page Heading
             client.println("<body><h1>Access Point for temperature control 001</h1>");
+            // JavaScript reload timer   
+            client.println("<script> setTimeout(function(){");
+            client.println("location.reload(); }, 10000); </script>");
           }
         }
       }
