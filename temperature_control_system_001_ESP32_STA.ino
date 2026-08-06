@@ -115,6 +115,8 @@ void loop() {
             // JavaScript reload timer   
             client.println("<script> setTimeout(function(){");
             client.println("location.reload(); }, 10000); </script>");
+            
+            // Web Page content
           }
         }
       }
