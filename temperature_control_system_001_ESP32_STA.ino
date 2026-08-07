@@ -117,6 +117,7 @@ void loop() {
             client.println("location.reload(); }, 10000); </script>");
             
             // Web Page content
+            client.print("<p>Heating burner: ");
           }
         }
       }
