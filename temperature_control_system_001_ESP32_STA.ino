@@ -119,6 +119,7 @@ void loop() {
             // Web Page content
             client.print("<p>Heating burner: ");
             client.print(heating_burner);
+            client.println("</p>");
             
           }
         }
