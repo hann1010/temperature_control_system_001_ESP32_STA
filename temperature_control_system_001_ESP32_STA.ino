@@ -121,6 +121,7 @@ void loop() {
             client.print(heating_burner);
             client.println("</p>");
             client.print("<p>Heating tanktop: ");
+            client.print(heating_tanktop);
           }
         }
       }
