@@ -122,6 +122,7 @@ void loop() {
             client.println("</p>");
             client.print("<p>Heating tanktop: ");
             client.print(heating_tanktop);
+            client.println("</p>");
           }
         }
       }
