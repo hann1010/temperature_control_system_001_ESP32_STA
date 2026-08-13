@@ -124,6 +124,7 @@ void loop() {
             client.print(heating_tanktop);
             client.println("</p>");
             client.print("<p>Heating inline: ");
+            client.print(heating_inline);
           }
         }
       }
