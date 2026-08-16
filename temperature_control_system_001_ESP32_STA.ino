@@ -128,6 +128,7 @@ void loop() {
             client.println("</p>");
             client.print("<p>Heating hotwater: ");
             client.print(heating_hotwater);
+            client.println("</p>");
           }
         }
       }
