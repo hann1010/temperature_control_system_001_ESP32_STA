@@ -130,6 +130,7 @@ void loop() {
             client.print(heating_hotwater);
             client.println("</p>");
             client.print("<p>Outdoor: ");
+            client.print(outdoor);
           }
         }
       }
