@@ -131,6 +131,7 @@ void loop() {
             client.println("</p>");
             client.print("<p>Outdoor: ");
             client.print(outdoor);
+            client.println("</p>");
           }
         }
       }
