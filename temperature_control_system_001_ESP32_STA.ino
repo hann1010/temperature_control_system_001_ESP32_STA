@@ -132,6 +132,7 @@ void loop() {
             client.print("<p>Outdoor: ");
             client.print(outdoor);
             client.println("</p>");
+            client.print("<p>Up time (min): ");
           }
         }
       }
