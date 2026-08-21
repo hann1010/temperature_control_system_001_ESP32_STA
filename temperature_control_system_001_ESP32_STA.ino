@@ -133,6 +133,7 @@ void loop() {
             client.print(outdoor);
             client.println("</p>");
             client.print("<p>Up time (min): ");
+            client.print(String uptime_m);
           }
         }
       }
