@@ -136,6 +136,7 @@ void loop() {
             client.print(String uptime_m);
             client.println("</p>");
             client.print("<p>Up time AP (min): ");
+            client.print(millis()/60000);
           }
         }
       }
