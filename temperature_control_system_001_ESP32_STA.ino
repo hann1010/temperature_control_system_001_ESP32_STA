@@ -140,6 +140,8 @@ void loop() {
             client.println("</p>");
             client.print("<p>Version: TCS_001_2025 ");
             client.println("</p>");
+            
+            client.println("</body></html>");
           }
         }
       }
