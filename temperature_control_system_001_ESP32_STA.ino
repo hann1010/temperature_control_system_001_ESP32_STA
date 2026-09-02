@@ -144,6 +144,7 @@ void loop() {
             client.println("</body></html>");
             
             // The HTTP response ends with another blank line
+            client.println();
           }
         }
       }
