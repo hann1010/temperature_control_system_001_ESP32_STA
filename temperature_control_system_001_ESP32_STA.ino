@@ -145,6 +145,8 @@ void loop() {
             
             // The HTTP response ends with another blank line
             client.println();
+            
+            // Break out of the while loop
           }
         }
       }
