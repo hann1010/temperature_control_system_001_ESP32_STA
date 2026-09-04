@@ -147,6 +147,7 @@ void loop() {
             client.println();
             
             // Break out of the while loop
+            break;
           }
         }
       }
