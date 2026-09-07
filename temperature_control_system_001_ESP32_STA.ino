@@ -151,6 +151,7 @@ void loop() {
             
           } else { // if you got a newline, then clear currentLine
             currentLine = "";
+          }
         }
       }
     }
