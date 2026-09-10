@@ -156,6 +156,7 @@ void loop() {
       }
       // Clear the header variable
       header = "";
+      // Close the connection
     }
   }
 }
