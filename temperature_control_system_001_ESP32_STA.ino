@@ -152,7 +152,7 @@ void loop() {
           } else { // if you got a newline, then clear currentLine
             currentLine = "";
           }
-        }
+        } else if (c != '\r') {  // if you got anything else but a carriage return character,
       }
       // Clear the header variable
       header = "";
