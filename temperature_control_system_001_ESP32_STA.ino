@@ -153,6 +153,7 @@ void loop() {
             currentLine = "";
           }
         } else if (c != '\r') {  // if you got anything else but a carriage return character,
+          currentLine += c;      // add it to the end of the currentLine
       }
       // Clear the header variable
       header = "";
