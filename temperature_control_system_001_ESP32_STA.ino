@@ -157,12 +157,11 @@ void loop() {
         }
       }
     }
-      // Clear the header variable
-      header = "";
-      // Close the connection
-      client.stop();
-      Serial.println("Client disconnected.");
-    
+    // Clear the header variable
+    header = "";
+    // Close the connection
+    client.stop();
+    Serial.println("Client disconnected.");
   }
 }
 
